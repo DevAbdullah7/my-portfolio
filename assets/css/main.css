@@ -370,12 +370,8 @@
 .sectionContent {
     position: relative;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* ========== End Section ========== */
@@ -2022,6 +2018,7 @@ html.light .nav ul li {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(4, auto); */
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .portfolio .sectionContent .card {

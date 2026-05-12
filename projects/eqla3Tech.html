@@ -189,52 +189,72 @@
                 }, 750)
                 let column1 = `
                     <div class="column column1">
-                        <div class="content">
+                        <div class="content" style="margin-bottom: 32px;">
                             <div class="title">
                                 <p class="english">About Project :</p>
                                 <p class="arabic">نبذة عن المشروع :</p>
                             </div>
                             <div class="resumeContent">
                                 <p class="english">
-                                    a website that provides tech articles and explanations
+                                    A web platform specialized in publishing programming articles and tutorials, aimed at simplifying technical concepts and providing clear educational content that helps developers and technology enthusiasts learn and improve their skills in a practical and seamless way.
                                 </p>
                                 <p class="arabic">
-                                    موقع الكتروني يقدم مقالات وشروحات تقنية
+                                    موقع الكتروني متخصص في نشر المقالات والشروحات البرمجية، يهدف إلى تبسيط المفاهيم التقنية وتقديم محتوى تعليمي واضح يساعد المطورين والمهتمين بالتقنية على التعلم وتطوير مهاراتهم بشكل عملي وسلس.
                                 </p>
                             </div>
                         </div>
-                        <div class="content">
+                        <div class="content" style="margin-bottom: 32px;">
+                            <div class="title">
+                                <p class="english">Technologies Used :</p>
+                                <p class="arabic">دوري في  المشروع :</p>
+                            </div>
+                            <div class="resumeContent">
+                                <p>UI/UX Designer & Frontend Developer</p> <br>
+
+                                <p class="english">
+                                    - Redesigned the user experience and front-end interface of the website to reduce user distraction and improve the browsing journey, helping enhance content clarity and increase average user engagement time.
+                                    <br>
+                                    <br>
+                                    - Developed the entire front-end interface using HTML, CSS, and JavaScript with a fully responsive design.
+                                </p>
+                                <p class="arabic">
+                                    - أعدت تصميم تجربة الاستخدام والواجهة الأمامية للموقع بهدف تقليل تشتت الزوار وتحسين رحلة التصفح، مما ساعد على رفع متوسط مدة الاستخدام وتحسين وضوح المحتوى.
+                                    <br>
+                                    <br>
+                                    - برمجت الواجهة بالكامل باستخدام HTML / CSS / JavaScript بشكل Responsive.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content" style="margin-bottom: 32px;">
                             <div class="title">
                                 <p class="english">Technologies Used :</p>
                                 <p class="arabic">التقنيات المستخدمة :</p>
                             </div>
-                            <div class="resumeContent">
-                                <ul class="flex">
-                                    <li class="topDot">
-                                        <p class="english">Design :</p>
-                                        <p class="arabic">مرحلة التصميم :</p>
-                                        <div class="subContent">
-                                            <span class="english fontBold shape">FIGMA</span> <br>
-                                            <span class="english fontBold shape">ADOBE PHOTOSHOP</span> <br>
-                                            <span class="english fontBold shape">ADOBE ILLUSTRATOR</span>
-                                        </div>
-                                    </li>
-                                    <li class="topDot">
-                                        <p class="english">Development :</p>
-                                        <p class="arabic">مرحلة البرمجة :</p>
-                                        <div class="subContent">
-                                            <span class="english fontBold shape">HTML5</span> <br>
-                                            <span class="english fontBold shape">CSS3</span> <br>
-                                            <span class="english fontBold shape">JAVASCRIPT</span>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div class="skills resumeContent">
+                                <div class="skillsContainer-skills">
+                                    <div class="skill" title="Figma">
+                                        <img src="../assets/imgs/skills/figma.svg" alt="Figma Logo">
+                                        <p>FIGMA</p>
+                                    </div>
+                                    <div class="skill" title="HTML5">
+                                        <img src="../assets/imgs/skills/html.svg" alt="HTML Logo">
+                                        <p>HTML5</p>
+                                    </div>
+                                    <div class="skill" title="CSS3">
+                                        <img src="../assets/imgs/skills/css.svg" alt="CSS Logo">
+                                        <p>CSS3</p>
+                                    </div>
+                                    <div class="skill" title="JS">
+                                        <img src="../assets/imgs/skills/js.svg" alt="JS Logo">
+                                        <p>JS</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="content">
+                        <div class="content" style="margin-bottom: 32px;">
                             <div class="title">
                                 <p class="english">Live Demo :</p>
-                                <p class="arabic">عرض مباشر :</p>
+                                <p class="arabic">روابط المشروع :</p>
                             </div>
                             <div class="resumeContent">
                                 <div class="social flex-center">
@@ -256,6 +276,8 @@
                     </div>
                 `
             </script>
+
+            <!-- Project Preveiw -->
             <div class="sectionInfo">
                 <div class="english backBtn" onclick="history.back()">
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
@@ -269,10 +291,120 @@
                     <div></div>
                 </div>
             </div>
-            <div class="sectionContent" id="Content">
+            <div class="sectionContent" id="heroSection">
 
             </div>
+            <div class="heroOrder">
+                <p class="english">Scroll Down</p>
+                <p class="arabic">مرر للأسفل لإستكشاف المشروع</p>
+                <div class="shape">
+                    <div class="scrallBtn"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="33" viewBox="0 0 26 33" fill="none">
+                        <path d="M12.5799 32.08C21.9799 32.08 24.2799 25.08 24.2799 16.48C24.2799 7.88 21.9799 0.879997 12.5799 0.879997C3.17988 0.879997 0.879883 7.88 0.879883 16.48C0.879883 25.08 3.17988 32.08 12.5799 32.08Z" stroke="currentColor" stroke-width="1.76"/>
+                    </svg>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Starting Project -->
+            <div class="sectionInfo" style="margin-bottom: 0;">
+                <div class="title">
+                    <p class="english">Eqla3 Tech</p>
+                    <p class="arabic">بداية المشروع</p>
+                    <div></div>
+                </div>
+                <br>
+                <div class="content">
+                    <div class="resumeContent" style="margin-bottom: 8px;">
+                        <p class="arabic" style="font-size: 16px; text-align: center;">عند بداية العمل على المشروع، كان الهدف الأساسي هو تحسين تجربة تصفح محتوى الموقع وتسهيل وصول المستخدمين للمقالات والشروحات دون تشتت بصري</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionContent reveal" style="flex-direction: column;">
+                <div class="content" style="width: 100%;">
+                    <!-- <div class="title" style="width: 100%; text-align: center;">
+                        <p class="english">About Project :</p>
+                        <p class="arabic">نبذة عن المشروع :</p>
+                    </div> -->
+                    <div class="resumeContent" style="width: 100%; text-align: center;">
+                        <p class="english">
+                            a website that provides tech articles and explanations
+                        </p>
+                        <p class="arabic">
+                            قبل العمل على المشروع كانت هناك مشكلة تتعلق بتشتت الزوار في الموقع الالكتروني وعدم وضوح رحلة المستخدم مما ادى الى انخفاض متوسط وقت تصفح الزوار للموقع
+                        </p>
+                    </div>
+                </div>
+                <div class="content" style="width: 100%; display: flex; align-items: center; flex-direction: column;">
+                    <div class="title" style="width: 100%; text-align: center; margin-bottom: 0;">
+                        <p class="english">About Project :</p>
+                        <p class="arabic">هنا مالك الموقع يصف المشكلة :</p>
+                    </div>
+                    <blockquote class="twitter-tweet Num" data-theme="dark"><p lang="ar" dir="rtl">لاحظت أكثر صفحه يزورها بموقعي هي صفحه الرئيسيه تصل فوق ٣ الالف زائر بين مواضيع و الاقسام لاتتعدى ٢٠٠ زائر 🤔<br><br>متأكد في خلل او يخلي زوار ضايعين او مو فاهمين. 🌝🤔</p>&mdash; Abdulaziz aldawk 🫡 (@a_Aldawk) <a href="https://twitter.com/a_Aldawk/status/1450091662668181509?ref_src=twsrc%5Etfw">October 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <br>
+                    <div class="resumeContent" style="width: 100%; text-align: center;">
+                        <p class="arabic">
+                            يقول مالك الموقع ان الصفحة الرئيسية في الموقع تتجاوز 3 الاف زيارة بينما في المقالات واقسام الشروحات لا تتجاوز 200 زيارة
+                        </p>
+                        <br>
+                        <div class="title" style="width: 100%; text-align: center; margin-bottom: 0;">
+                            <p class="english">About Project :</p>
+                            <p class="arabic">هنا مالك الموقع يصف المشكلة :</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="content reveal" style="width: 100%; display: flex; align-items: center; flex-direction: column;">
+                        <div class="title" style="width: 100%; text-align: center;">
+                            <p class="english">About Project :</p>
+                            <p class="arabic">احصائيات الموقع قبل العمل :</p>
+                        </div>
+                        <br>
+                        <img src="../assets/imgs/portfolioProjects/eqla3tech/issus1.png" alt="Eqla3 Tech Facts" style="width: 256px;" class="Num">
+                        <br>
+                        <br>
+                        <div class="resumeContent" style="width: 100%; text-align: center;">
+                            <p class="arabic">
+                                كما نرى هنا في احصائيات الزيارات، يمثل الباث "/" الصفحة الرئيسية وتستحوذ على اغلب الزيارات بواقع 2246 زيارة بينما اعلى صفحة زيارةً في الموقع لم تستحوذ سوى على 103 زيارة، وهذا الامر ينطبق على بقية الصفحات في الموقع وهو مغادرة الزوار للموقع من الصفحة الرئيسية ولا يكملون تصفح بقية صفحات الموقع !
+                            </p>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="../assets/imgs/portfolioProjects/eqla3tech/issus2.png" alt="Eqla3 Tech Facts" style="border-radius: 10px;" class="Num fact">
+                        <br>
+                        <br>
+                        <div class="resumeContent" style="width: 100%; text-align: center;">
+                            <p class="arabic">
+                                كما نرى هنا ايضا في احصائيات متوسط وقت تفاعل الزوار في الموقع ( Average Engagement Time ) انخفاض حاد وذلك بمتوسط 0.14 ثانية، ايضا نلاحظ انخفاض حاد في معدل تفاعل الزوار في الجلسة الواحدة ( Average Engagement Time per Session ) بمعدل 0.12 ثانية، ايضا نلاحظ انخفاض حاد في معدل عدد الجلسات التفاعلية لكل مستخدم ( Engaged Sessions per User ) بمعدل 0.19 جلسة تفاعلية !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <!-- Starting Project -->
+            <div class="content reveal" style="width: 100%; display: flex; align-items: center; flex-direction: column;">
+                <div class="sectionInfo">
+                    <div class="title">
+                        <p class="english">Eqla3 Tech</p>
+                        <p class="arabic">دراسة وتحليل المشروع</p>
+                        <div></div>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <div class="resumeContent">
+                            <p class="arabic" style="font-size: 16px; text-align: center;">عند بداية العمل على المشروع، كان الهدف الأساسي هو تحسين تجربة تصفح محتوى الموقع وتسهيل وصول المستخدمين للمقالات والشروحات دون تشتت بصري.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="topArrow flex-center" onclick="window.scrollTo(0,0)">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
     <div class="footer" id="footer">
         <div class="sectionInfo">

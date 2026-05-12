@@ -277,11 +277,11 @@ function showProjects() {
 showProjects()
 
 function projectsColumns(column1, column2) {
-    let parent = document.getElementById('Content')
+    let parent = document.getElementById('heroSection')
     if (window.innerWidth < 1024) {
-        document.getElementById('Content').innerHTML = column2 + column1
+        document.getElementById('heroSection').innerHTML = column2 + column1
     } else {
-        document.getElementById('Content').innerHTML = column1 + column2
+        document.getElementById('heroSection').innerHTML = column1 + column2
     }
 }
 

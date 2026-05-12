@@ -126,7 +126,36 @@
 
 .html.projects .sectionContent .column {
     position: relative;
-    width: 40%;
+    /* width: 40%; */
+    margin: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .html.projects #project #heroSection {
+        height: calc(83vh - 75px);
+        gap: 256px;
+    }
+    .html.projects #project .sectionContent {
+        justify-content: space-between;
+    }
+    .html.projects #project .sectionContent .column1 {
+        flex: 1;
+    }
+    .html.projects #project .sectionContent .column2.flex-center {
+        align-items: start;
+    }
+}
+
+.html.projects #project .skills .skillsContainer-skills {
+    justify-content: start;
+}
+.html.projects #project .skills .skill {
+    width: 80px;
+    height: 80px;
+    gap: 8px;
+}
+.html.projects #project .skills .skill p {
+    font-size: 12px;
 }
 
 
@@ -167,6 +196,72 @@
     -webkit-transition: .5s all ease-in-out;
     -o-transition: .5s all ease-in-out;
     transition: .5s all ease-in-out;
+}
+
+.html.projects .sectionContent .Num {
+    box-shadow: var(--neumBtn-Big-Light);
+}
+.html.dark.projects .sectionContent .Num {
+    box-shadow: var(--neumBtn-Big-Dark);
+}
+
+.html.projects .sectionContent img.fact {
+    width: 512px;
+}
+@media screen and (max-width: 768px) {
+    .html.projects .sectionContent img.fact {
+        width: 320px;
+    }
+}
+
+/* Hero Section */
+.html.projects .heroOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--firstTyColorLight);
+    font-size: 18px;
+    transition: .5s all ease-in-out;
+}
+.html.dark.projects .heroOrder {
+    color: var(--firstTyColorDark);
+}
+
+.html.projects .heroOrder .shape {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--seccondColorLight);
+    transition: .5s all ease-in-out;
+}
+.html.dark.projects .heroOrder .shape {
+    color: var(--seccondColorDark);
+}
+
+.html.projects .heroOrder .scrallBtn {
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    top: 10px;
+    border-radius: 2px;
+    background: var(--seccondColorLight);
+    animation-name: scalling;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s all ease-in-out;
+}
+.html.dark.projects .heroOrder .scrallBtn {
+    background: var(--seccondColorDark);
+}
+
+/* Scall Shape Animation */
+@keyframes scalling {
+    0%   {top: 4px;}
+    50%  {top: 8px;}
+    100% {top: 12px;}
 }
 
 .html.projects .sectionContent .column .img img.shape {
