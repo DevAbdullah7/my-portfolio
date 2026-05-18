@@ -370,8 +370,12 @@
 .sectionContent {
     position: relative;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 /* ========== End Section ========== */
@@ -815,12 +819,10 @@ html.light .nav ul li {
 
 .homeSectionContent {
     position: fixed;
-    width: 92.5%;
+    width: 100%;
     top: 20%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    transform: translateX(-53.5%);
     display: -ms-grid;
     display: grid;
     place-items: center;
@@ -1077,8 +1079,8 @@ html.light .nav ul li {
 
 .about .img {
     position: relative;
-    width: 360px;
-    height: 360px;
+    width: 25px;
+    height: 25px;
     border-radius: 25px;
     -webkit-transition: 0.5s all ease-in-out;
     -o-transition: 0.5s all ease-in-out;
@@ -2018,7 +2020,6 @@ html.light .nav ul li {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(4, auto); */
     margin-bottom: 50px;
-    justify-content: center;
 }
 
 .portfolio .sectionContent .card {
