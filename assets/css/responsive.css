@@ -1,6 +1,5 @@
 /* ========== Base ========== */
 @media only screen and (max-width: 1200px) {
-
     html,
     body {
         overflow-x: hidden;
@@ -9,13 +8,10 @@
     .html.projects .sectionContent .column {
         width: 50%;
     }
-
 }
-
 
 /* ========== Mobiles Size ========== */
 @media only screen and (max-width: 1024px) {
-
     html,
     body {
         /* overflow-x: hidden !important; */
@@ -26,39 +22,70 @@
         /* ========== Neum Shadows ========== */
         /* Btns */
         /* Bigest Size */
-        --neumBtn-Bigest-Light: 15px 15px 25px rgb(100 100 100 / 15%), -15px -15px 30px rgb(255 255 255 / 100%);
+        --neumBtn-Bigest-Light:
+            15px 15px 25px rgb(100 100 100 / 15%),
+            -15px -15px 30px rgb(255 255 255 / 100%);
         --neumBtn-Bigest-Dark: 15px 15px 25px #2b2b2b, -15px -15px 25px #3b3b3b;
-        --neumBtnHover-Bigest-Light: 15px 15px 20px rgb(100 100 100 / 15%) inset, -15px -15px 20px rgb(255 255 255 / 75%) inset;
-        --neumBtnHover-Bigest-Dark: 15px 15px 25px #2b2b2b inset, -15px -15px 25px #3b3b3b inset;
+        --neumBtnHover-Bigest-Light:
+            15px 15px 20px rgb(100 100 100 / 15%) inset,
+            -15px -15px 20px rgb(255 255 255 / 75%) inset;
+        --neumBtnHover-Bigest-Dark:
+            15px 15px 25px #2b2b2b inset, -15px -15px 25px #3b3b3b inset;
 
         /* Big Size */
-        --neumBtn-Big-Light: 15px 15px 15px rgb(100 100 100 / 15%), -15px -15px 20px rgb(255 255 255 / 100%);
-        --neumBtn-Big-Dark: 12.5px 12.5px 25px #2b2b2b, -12.5px -12.5px 25px #3b3b3b;
-        --neumBtnHover-Big-Light: 15px 15px 15px rgb(100 100 100 / 15%) inset, -15px -15px 15px rgb(255 255 255 / 75%) inset;
-        --neumBtnHover-Big-Dark: 12.5px 12.5px 25px rgb(3 3 3 / 25%) inset, -12.5px -12.5px 25px #3b3b3b inset;
+        --neumBtn-Big-Light:
+            15px 15px 15px rgb(100 100 100 / 15%),
+            -15px -15px 20px rgb(255 255 255 / 100%);
+        --neumBtn-Big-Dark:
+            12.5px 12.5px 25px #2b2b2b, -12.5px -12.5px 25px #3b3b3b;
+        --neumBtnHover-Big-Light:
+            15px 15px 15px rgb(100 100 100 / 15%) inset,
+            -15px -15px 15px rgb(255 255 255 / 75%) inset;
+        --neumBtnHover-Big-Dark:
+            12.5px 12.5px 25px rgb(3 3 3 / 25%) inset,
+            -12.5px -12.5px 25px #3b3b3b inset;
 
         /* Medium Size */
-        --neumBtn-Medium-Light: 7.5px 7.5px 15px rgb(100 100 100 / 15%), -7.5px -7.5px 20px rgb(255 255 255 / 100%);
-        --neumBtn-Medium-Dark: 7.5px 7.5px 12.5px #2b2b2b, -7.5px -7.5px 12.5px #3b3b3b;
-        --neumBtnHover-Medium-Light: 7.5px 7.5px 10px rgb(100 100 100 / 15%) inset, -7.5px -7.5px 10px rgb(255 255 255 / 75%) inset;
-        --neumBtnHover-Medium-Dark: 7.5px 7.5px 10px #2b2b2b inset, -7.5px -7.5px 10px #3b3b3b inset;
+        --neumBtn-Medium-Light:
+            7.5px 7.5px 15px rgb(100 100 100 / 15%),
+            -7.5px -7.5px 20px rgb(255 255 255 / 100%);
+        --neumBtn-Medium-Dark:
+            7.5px 7.5px 12.5px #2b2b2b, -7.5px -7.5px 12.5px #3b3b3b;
+        --neumBtnHover-Medium-Light:
+            7.5px 7.5px 10px rgb(100 100 100 / 15%) inset,
+            -7.5px -7.5px 10px rgb(255 255 255 / 75%) inset;
+        --neumBtnHover-Medium-Dark:
+            7.5px 7.5px 10px #2b2b2b inset, -7.5px -7.5px 10px #3b3b3b inset;
 
         /* Small Size */
-        --neumBtn-Small-Light: 5px 5px 15px rgb(100 100 100 / 15%), -5px -5px 20px rgb(255 255 255 / 100%);
+        --neumBtn-Small-Light:
+            5px 5px 15px rgb(100 100 100 / 15%),
+            -5px -5px 20px rgb(255 255 255 / 100%);
         --neumBtn-Small-Dark: 5px 5px 10px #2b2b2b, -5px -5px 10px #3b3b3b;
-        --neumBtnHover-Small-Light: 5px 5px 7.5px rgb(100 100 100 / 20%) inset, -5px -5px 7.5px rgb(255 255 255 / 75%) inset;
-        --neumBtnHover-Small-Dark: 5px 5px 7.5px #2b2b2b inset, -5px -5px 5px #3b3b3b inset;
+        --neumBtnHover-Small-Light:
+            5px 5px 7.5px rgb(100 100 100 / 20%) inset,
+            -5px -5px 7.5px rgb(255 255 255 / 75%) inset;
+        --neumBtnHover-Small-Dark:
+            5px 5px 7.5px #2b2b2b inset, -5px -5px 5px #3b3b3b inset;
 
         /* Home Shape */
-        --neumBtn-homeShape-Light: 20px 20px 50px rgb(100 100 100 / 15%), -20px -20px 50px rgb(255 255 255 / 100%);
-        --neumBtn-homeShape-Dark: 20px 20px 50px #2b2b2b, -20px -20px 50px #3b3b3b;
+        --neumBtn-homeShape-Light:
+            20px 20px 50px rgb(100 100 100 / 15%),
+            -20px -20px 50px rgb(255 255 255 / 100%);
+        --neumBtn-homeShape-Dark:
+            20px 20px 50px #2b2b2b, -20px -20px 50px #3b3b3b;
 
         /* Footer Icons Size */
-        --neumBtn-footerIcons-Light: 5px 5px 15px rgb(100 100 100 / 15%), -5px -5px 20px rgb(255 255 255 / 100%);
-        --neumBtn-footerIcons-Dark: 3px 3px 13px #2b2b2b, -3px -3px 13px #515151;
+        --neumBtn-footerIcons-Light:
+            5px 5px 15px rgb(100 100 100 / 15%),
+            -5px -5px 20px rgb(255 255 255 / 100%);
+        --neumBtn-footerIcons-Dark:
+            3px 3px 13px #2b2b2b, -3px -3px 13px #515151;
 
         /* Dots Size */
-        --neumBtn-Dots-Light: 5px 5px 10px rgb(100 100 100 / 15%), -2.5px -2.5px 10px rgb(255 255 255 / 100%);
+        --neumBtn-Dots-Light:
+            5px 5px 10px rgb(100 100 100 / 15%),
+            -2.5px -2.5px 10px rgb(255 255 255 / 100%);
         --neumBtn-Dots-Dark: 5px 5px 10px #2b2b2b, -2.5px -2.5px 7.5px #3b3b3b;
         /* ========== End Neum Shadows ========== */
 
@@ -94,9 +121,9 @@
         -ms-transform: translateY(150px);
         transform: translateY(150px);
         opacity: 0;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     .html.projects .section {
@@ -136,9 +163,9 @@
         margin: 15px 0 0;
         text-transform: uppercase;
         font-size: var(--h3-size);
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     .html.arabic .sectionInfo .title {
@@ -176,9 +203,9 @@
         height: 5px;
         margin: 0 auto;
         border-radius: 1px;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     .html.arabic .sectionInfo .title div {
@@ -188,7 +215,7 @@
 
     .sectionInfo .title div::after {
         position: absolute;
-        content: '';
+        content: "";
         width: 45%;
         height: 100%;
         left: 50%;
@@ -196,9 +223,9 @@
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
         border-radius: 1px;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     /* -- Section Title Shape Mood -- */
@@ -221,9 +248,9 @@
     /* ---------- Section Subtitle ---------- */
     .sectionInfo .subtitle {
         margin-top: 25px;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     .html.arabic .sectionInfo .subtitle {
@@ -342,9 +369,9 @@
         height: 60px;
         top: 0;
         z-index: 1000;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
         background: var(--mainColorLight);
     }
 
@@ -369,9 +396,9 @@
         -ms-transform: translateY(10px);
         transform: translateY(10px);
         border-radius: 15px;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
         -webkit-box-shadow: var(--neumBtn-Medium-Light);
         box-shadow: var(--neumBtn-Medium-Light);
         background: var(--mainColorLight);
@@ -401,9 +428,9 @@
         width: 75%;
         top: 50%;
         left: 10px;
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     .html.arabic .logo img {
@@ -468,9 +495,9 @@
         border-radius: 15px;
         font-size: var(--normal-size);
         color: var(--firstTyColorLight);
-        -webkit-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
     }
 
     #navMobileBtn.close i.close {
@@ -505,7 +532,7 @@
         color: var(--firstTyColorDark);
     }
 
-    .nav[mobile='open'] {
+    .nav[mobile="open"] {
         width: 100%;
         height: 100%;
         display: -webkit-box;
@@ -516,12 +543,12 @@
         align-items: center;
         padding: 15px;
         background: var(--mainColorLight);
-        -webkit-transition: .25s all ease-in-out;
-        -o-transition: .25s all ease-in-out;
-        transition: .25s all ease-in-out;
+        -webkit-transition: 0.25s all ease-in-out;
+        -o-transition: 0.25s all ease-in-out;
+        transition: 0.25s all ease-in-out;
     }
 
-    .html.arabic .nav[mobile='open'] {
+    .html.arabic .nav[mobile="open"] {
         direction: rtl;
         right: unset;
         -webkit-box-pack: start;
@@ -529,14 +556,14 @@
         justify-content: flex-start;
     }
 
-    .html.english .nav[mobile='open'] {
+    .html.english .nav[mobile="open"] {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
         right: unset;
     }
 
-    .nav[mobile='close'] {
+    .nav[mobile="close"] {
         -webkit-transform: scale(0);
         -ms-transform: scale(0);
         transform: scale(0);
@@ -545,7 +572,7 @@
         transform-origin: right;
     }
 
-    .html.dark .nav[mobile='open'] {
+    .html.dark .nav[mobile="open"] {
         background: var(--mainColorDark);
     }
 
@@ -750,9 +777,13 @@
     }
 
     .about .img {
-        width: 300px;
-        height: 300px;
+        width: 144px;
+        height: 144px;
         margin: 0 auto;
+        border-radius: 15px;
+    }
+    .about img {
+      border-radius: 15px;
     }
 
     @media only screen and (min-width: 760px) {
@@ -855,7 +886,7 @@
         width: 75%;
         gap: 25px;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .footer .sectionContent p {
