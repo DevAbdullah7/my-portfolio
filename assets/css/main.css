@@ -339,6 +339,58 @@
     background: var(--shift2ColorDark);
 }
 
+/* ---------- Scroll Order ---------- */
+.heroOrder {
+    position: absolute;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--firstTyColorLight);
+    font-size: 18px;
+    transition: .5s all ease-in-out;
+}
+.html.dark .heroOrder {
+    color: var(--firstTyColorDark);
+}
+
+.heroOrder .shape {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--seccondColorLight);
+    transition: .5s all ease-in-out;
+}
+.html.dark .heroOrder .shape {
+    color: var(--seccondColorDark);
+}
+
+.heroOrder .scrallBtn {
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    top: 10px;
+    border-radius: 2px;
+    background: var(--seccondColorLight);
+    animation-name: scalling;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s all ease-in-out;
+}
+.html.dark .heroOrder .scrallBtn {
+    background: var(--seccondColorDark);
+}
+
+/* Scall Shape Animation */
+@keyframes scalling {
+    0%   {top: 4px;}
+    50%  {top: 8px;}
+    100% {top: 12px;}
+}
+
 /* ---------- Section Subtitle ---------- */
 .sectionInfo .subtitle {
     margin-top: 25px;
@@ -371,7 +423,7 @@
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* ========== End Section ========== */
@@ -2592,4 +2644,16 @@ html.light .nav ul li {
 }
 .html.dark.errors .mainContent .btn404:hover {
     box-shadow: var(--neumBtnHover-Medium-Dark);
+}
+
+
+
+/* Projects Mockup */
+.html.projects .sectionContent .column .img img.mockup {
+    width: 800px;
+    height: 92%;
+    left: -37%;
+    top: 5%;
+    transform: rotateY(8deg) rotateX(8deg) rotateZ(-8deg);
+    transform-style: preserve-3d;
 }
